@@ -47,6 +47,6 @@ app.post("/", async (req, res) => {
 });
 
 app.listen(port, () => {
-    mongoose.connect('mongodb+srv://victomendessouza:YH8L7YkYk683mBqU@project-api.ezxdlgl.mongodb.net/?retryWrites=true&w=majority&appName=Project-API');
+    mongoose.connect('mongodb+srv://victomendessouza:<sua senha>@project-api.ezxdlgl.mongodb.net/?retryWrites=true&w=majority&appName=Project-API');
     console.log(`App running`);
 });
